@@ -141,7 +141,7 @@ h6 {
 
 #header .logo {
   font-size: 28px;
-  margin: 0;
+  margin: 0px;
   padding: 0;
   line-height: 1;
   font-weight: 300;
@@ -1090,6 +1090,16 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+@media (min-width: 1024px) {
+  .portfolio {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .img-fluid {
+    width: 80%;
+  }
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
